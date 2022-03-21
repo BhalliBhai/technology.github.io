@@ -746,7 +746,7 @@
     <!-- end footer -->
     <!-- copyright -->
     <div class="copyright text-center">
-        <p>Ⓒ 2022 All Rights Reserved | Developed by <span class="my-Name"><a target="_blank" href="mailto:bhallibhai69@gmail.com"> Bhalli Bhai</a></span> </p>
+        <p>Ⓒ <span id="year"></span> All Rights Reserved | Developed by <span class="my-Name"><a target="_blank" href="mailto:bhallibhai69@gmail.com"> Bhalli Bhai</a></span> </p>
     </div>
     <!-- end rights -->
 
@@ -953,7 +953,12 @@
     </script>
     <!-- end slider -->
 
-
+<!-- Current Year -->
+    <script>
+    let newDate = new Date()
+    let year = newDate.getFullYear();
+    document.getElementById('year').innerHTML=year;
+    </script>
 
 
 
