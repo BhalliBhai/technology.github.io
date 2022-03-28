@@ -143,6 +143,36 @@ ul .active:active {
 }
 
 
+      /* floating image */
+      .contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .move {
+        overflow: hidden;
+        transform: translatey(0px);
+        animation: float 3s ease-in-out infinite;
+      }
+      .move img {
+        width: 98%;
+        height: auto;
+      }
+      @keyframes float {
+        0% {
+          transform: translatey(0px);
+        }
+        50% {
+          transform: translatey(-20px);
+        }
+        100% {
+          transform: translatey(0px);
+        }
+      }
+      
+        /*end floating image */
+
 /* about */
 
 #about .container-fluid .row .col-lg-6 {
