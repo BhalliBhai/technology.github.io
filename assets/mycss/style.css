@@ -947,7 +947,7 @@ i.fa-long-arrow-right:active {
     background-color: darkgrey;
 }
 
-.carousel-indicators li .active {
+.carousel-indicators .active {
     background-color: black;
 }
 
