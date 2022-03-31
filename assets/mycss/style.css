@@ -944,11 +944,11 @@ i.fa-long-arrow-right:active {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: darkgrey;
+    background-color: black;
 }
 
 .carousel-indicators li:active .active {
-    background-color: black !important;
+    background-color: black;
 }
 
 
